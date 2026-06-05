@@ -186,14 +186,44 @@ main {
     body {
         width: 100vw;
     }
-    h1 {font-size: 24px;}
-    h2 {font-size: 18px;}
-    h3 {font-size: 14px;}
-    p  {font-size: 14px;}
+    h1 {font-size: 26px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 16px;}
+    p  {font-size: 16px;}
     .button-primary, .button-secondary {
         width: 130px;
         height: 30px;
     }
+    .hero {
+        .cta {
+            width: 340px;
+            .text p {font-size: 18px;}
+        }
+        img {
+            width: 340px;
+            height: auto;
+        }
+    }
+    .features {
+        justify-content: space-between;
+        gap: 30px;
+        .card {
+            padding: 20px;
+            width: 300px;
+            .title {
+                gap: 5px;
+                margin-bottom: 5px;
+                img {width: 30px; height: 30px;}
+            }
+        }
+    }
+}
+
+@media (max-width: 769px) {
+    h1 {font-size: 24px;}
+    h2 {font-size: 18px;}
+    h3 {font-size: 14px;}
+    p  {font-size: 14px;}
     .hero {
         .cta {
             width: 315px;
@@ -204,24 +234,14 @@ main {
             height: auto;
         }
     }
-    .features {
-        justify-content: space-between;
-        gap: 30px;
-        .card {
-            padding: 20px;
+    .features .card {
             width: 275px;
-            .title {
-                gap: 5px;
-                margin-bottom: 5px;
-                img {width: 30px; height: 30px;}
-            }
-        }
     }
 }
 
 @media (max-width: 719px) {
     h1 {font-size: 20px;}
-    h2 {font-size: 16px;}
+    h2 {font-size: 15px;}
     h3 {font-size: 13px;}
     p  {font-size: 12px;}
     header .sections {gap: 10px;}
@@ -231,6 +251,7 @@ main {
     .button-primary, .button-secondary {
         width: 120px;
         height: 25px;
+        border: 2px solid $primary;
     }
     .hero {
         .cta {
