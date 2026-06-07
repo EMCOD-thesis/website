@@ -2,7 +2,7 @@ $accent: #BB0000;
 $primary: #111432;
 $background: #E5FAFF;
 
-$page-width: 1100px;
+$page-width: 990px;
 
 html {
     background-color: #000;
@@ -25,9 +25,10 @@ h1, h2, h3{
     font-weight: 400;
 }
 h1 {font-size: 32px;}
-h2 {font-size: 26px;}
+h2 {font-size: 24px;}
 h3 {font-size: 20px;}
 p  {font-size: 18px;}
+.hero .cta p {font-size: 20px;}
 
 a {
     text-decoration: none;
@@ -96,9 +97,7 @@ main {
         display: flex;
         flex-direction: column;
         gap: 15px;
-        .text p {
-            font-size: 20px;
-        }
+        text-align: justify;
         .buttons {
             display: flex;
             flex-direction: row;
@@ -106,7 +105,7 @@ main {
         }
     }
     img {
-        width: 475px;
+        width: 420px;
         height: auro;
     }
 }
@@ -119,7 +118,7 @@ main {
     gap: 50px;
     flex-wrap: wrap;
     .card {
-        width: 425px;
+        width: 370px;
         padding: 25px;
         background-color: $primary;
         .title {
@@ -127,8 +126,9 @@ main {
             flex-direction: row;
             align-items: center;
             justify-content: flex-start;
-            gap: 25px;
-            margin-bottom: 15px;
+            gap: 10px;
+            margin-bottom: 10px;
+            img {width: 45px; height: 45px;}
         }
     }
 }
@@ -190,6 +190,7 @@ main {
     h2 {font-size: 20px;}
     h3 {font-size: 16px;}
     p  {font-size: 16px;}
+    .hero .cta p {font-size: 18px;}
     .button-primary, .button-secondary {
         width: 130px;
         height: 30px;
@@ -197,7 +198,6 @@ main {
     .hero {
         .cta {
             width: 340px;
-            .text p {font-size: 18px;}
         }
         img {
             width: 340px;
@@ -224,10 +224,11 @@ main {
     h2 {font-size: 18px;}
     h3 {font-size: 14px;}
     p  {font-size: 14px;}
+    .hero .cta p {font-size: 16px;}
     .hero {
         .cta {
+            gap: 5px;
             width: 315px;
-            .text p {font-size: 16px;}
         }
         img {
             width: 315px;
@@ -244,6 +245,7 @@ main {
     h2 {font-size: 15px;}
     h3 {font-size: 13px;}
     p  {font-size: 12px;}
+    .hero .cta p {font-size: 14px;}
     header .sections {gap: 10px;}
     header .logo img {
         width: 120px; height: auto;
@@ -256,7 +258,6 @@ main {
     .hero {
         .cta {
             width: 265px;
-            .text p {font-size: 14px;}
         }
         img {
             width: 265px;
@@ -272,12 +273,20 @@ main {
 }
 
 @media (max-width: 619px) {
-    h1 {font-size: 14px;}
-    h2 {font-size: 10px;}
-    h3 {font-size: 9px;}
-    p  {font-size: 9px;}
-    header .logo img {
-        width: 90px; height: auto;
+    h1 {font-size: 15px;}
+    h2 {font-size: 11px;}
+    h3 {font-size: 10px;}
+    p  {font-size: 10px;}
+    .hero .cta p {font-size: 12px;}
+     main {
+        margin: 15px 0;
+        gap: 15px;
+    }
+    header {
+        padding: 15px;
+        .logo img {
+            width: 90px; height: auto;
+        }
     }
     .button-primary, .button-secondary {
         width: 80px;
@@ -285,39 +294,23 @@ main {
         border: 1px solid $primary;
     }
     .hero {
+        margin: 0 15px;
         .cta {
-            width: 185px;
-            .text p {font-size: 10px;}
+            width: 200px;
         }
         img {
-            width: 185px;
+            width: 200px;
             height: auto;
         }
     }
     .features {
+        margin: 0 15px;
+        gap: 15px;
         .card {
             padding: 10px;
-            width: 165px;
+            width: 180px;
             .title img {width: 20px; height: 20px;}
         }   
-    }
-}
-
-@media (max-width: 459px) {
-    main {
-        margin: 15px 0;
-        gap: 15px;
-    }
-    header {
-        padding: 15px;
-    }
-    .hero {
-        margin: 0 15px;
-    }
-    .features {
-        margin: 0 15px;
-        justify-content: space-between;
-        gap: 15px;
     }
     .contact {
         padding: 15px;
@@ -327,24 +320,24 @@ main {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 444px) {
     h1 {font-size: 11px;}
     h2 {font-size: 8px;}
     h3 {font-size: 6px;}
     p  {font-size: 6px;}
+    .hero .cta p {font-size: 8px;}
     .logo img {
         width: 70px; height: auto;
     }
     .button-primary, .button-secondary {
-        width: 60px;
-        height: 16px;
+        width: 55px;
+        height: 12px;
         border: 1px solid $primary;
     }
     .hero {
         .cta {
             gap: 5px;
             width: 145px;
-            .text p {font-size: 8px;}
         }
         img {
             width: 145px;
