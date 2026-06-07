@@ -4,19 +4,14 @@ $background: #E5FAFF;
 
 $page-width: 990px;
 
-html {
-    background-color: #000;
-}
+html {background-color: #000;}
+* {font-family: 'B612', sans-serif;}
 
 body {
     background-color: $background;
     width: $page-width;
     height: 100%;
     margin: 0 auto;
-}
-
-* {
-    font-family: 'B612', sans-serif;
 }
 
 h1, h2, h3, p {margin: 0;}
@@ -67,9 +62,7 @@ header {
     align-items: center;
     .logo {
         line-height: 0;
-        img {
-            width: 150px; height: auto;
-        }
+        img {width: 150px; height: auto;}
     }
     .sections {
         display:flex;
@@ -85,7 +78,7 @@ main {
     flex-direction: column;
     gap: 50px;
 }
-
+* {font-family: 'B612', sans-serif;}
 .hero {
     margin: 0 50px;
     display: flex;
@@ -145,9 +138,7 @@ main {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        .info {
-            gap: 5px;
-        }
+        .info {gap: 5px;}
     }
 }
 
@@ -156,39 +147,26 @@ main {
 }
 
 @media (max-width: 989px) {
-    body {
-        width: 100vw;
-    }
+    body {width: 100vw;}
     main {
         margin: 30px 0;
         gap: 30px;
     }
-    header {
-        padding: 30px;
-    }
-    .hero {
-        margin: 0 30px;
-    }
+    header {padding: 30px;}
+    .hero {margin: 0 30px;}
     .features {
         margin: 0 30px;
         justify-content: space-between;
         gap: 30px;
     }
-    .contact {
-        padding: 30px;
-    }
-    .demonstration {
-        margin: 0 30px;
-    }
+    .contact {padding: 30px;}
+    .demonstration {margin: 0 30px;}
 }
 
 @media (max-width: 929px) {
-    body {
-        width: 100vw;
-    }
-    h1 {font-size: 26px;}
-    h2 {font-size: 20px;}
-    h3 {font-size: 16px;}
+    h1 {font-size: 28px;}
+    h2 {font-size: 22px;}
+    h3 {font-size: 18px;}
     p  {font-size: 16px;}
     .hero .cta p {font-size: 18px;}
     header .logo img {width: 120px; height: auto;}
@@ -197,20 +175,17 @@ main {
         height: 30px;
     }
     .hero {
-        .cta {
-            width: 340px;
-        }
+        .cta {width: 370px;}
         img {
-            width: 340px;
+            width: 370px;
             height: auto;
         }
     }
     .features {
-        justify-content: space-between;
         gap: 30px;
         .card {
             padding: 20px;
-            width: 300px;
+            width: 330px;
             .title {
                 gap: 5px;
                 margin-bottom: 5px;
@@ -220,12 +195,28 @@ main {
     }
 }
 
+@media (max-width: 829px) {
+    h1 {font-size: 26px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 16px;}
+    p  {font-size: 14px;}
+    .hero .cta p {font-size: 16px;}
+    .hero {
+        .cta {width: 340px;}
+        img {
+            width: 340px;
+            height: auto;
+        }
+    }
+    .features .card {width: 300px;}
+}
+
 @media (max-width: 769px) {
     h1 {font-size: 24px;}
     h2 {font-size: 18px;}
     h3 {font-size: 14px;}
-    p  {font-size: 14px;}
-    .hero .cta p {font-size: 16px;}
+    p  {font-size: 12px;}
+    .hero .cta p {font-size: 14px;}
     .hero {
         .cta {
             gap: 5px;
@@ -236,9 +227,7 @@ main {
             height: auto;
         }
     }
-    .features .card {
-            width: 275px;
-    }
+    .features .card {width: 275px;}
 }
 
 @media (max-width: 719px) {
@@ -247,16 +236,17 @@ main {
     h3 {font-size: 13px;}
     p  {font-size: 12px;}
     .hero .cta p {font-size: 14px;}
-    header .sections {gap: 10px;}
+    header {
+        .logo img {width: 100px; height: auto;}
+        .sections {gap: 10px;}
+    }
     .button-primary, .button-secondary {
         width: 120px;
         height: 25px;
         border: 2px solid $primary;
     }
     .hero {
-        .cta {
-            width: 265px;
-        }
+        .cta {width: 265px;}
         img {
             width: 265px;
             height: auto;
@@ -282,9 +272,7 @@ main {
     }
     header {
         padding: 15px;
-        .logo img {
-            width: 90px; height: auto;
-        }
+        .logo img {width: 90px; height: auto;}
     }
     .button-primary, .button-secondary {
         width: 100px;
@@ -293,9 +281,7 @@ main {
     }
     .hero {
         margin: 0 15px;
-        .cta {
-            width: 235px;
-        }
+        .cta {width: 235px;}
         img {
             width: 235px;
             height: auto;
@@ -310,12 +296,8 @@ main {
             .title img {width: 20px; height: 20px;}
         }   
     }
-    .contact {
-        padding: 15px;
-    }
-    .demonstration {
-        margin: 0 15px;
-    }
+    .contact {padding: 15px;}
+    .demonstration {margin: 0 15px;}
 }
 
 @media (max-width: 514px) {
@@ -324,9 +306,7 @@ main {
     h3 {font-size: 10px;}
     p  {font-size: 8px;}
     .hero .cta p {font-size: 9px;}
-    header .logo img {
-        width: 70px; height: auto;
-    }
+    header .logo img {width: 70px; height: auto;}
     .button-primary, .button-secondary {
         width: 70px;
         height: 17px;
@@ -354,43 +334,57 @@ main {
 }
 
 @media (max-width: 414px) {
+    h1 {font-size: 13px;}
+    h2 {font-size: 10px;}
+    h3 {font-size: 9px;}
+    p  {font-size: 7px;}
+    .hero .cta p {font-size: 8px;}
+    .hero {
+        .cta {
+            gap: 5px;
+            width: 170px;
+        }
+        img {
+            width: 170px;
+            height: auto;
+        }
+    }
+    .features {
+        .card {
+            width: 150px;
+            .title {
+                gap: 3px;
+                margin-bottom: 3px;
+                img {width: 14px; height: 14px;}
+            }
+        }   
+    }
+}
+
+@media (max-width: 384px) {
+    h1 {font-size: 11px;}
+    h2 {font-size: 9px;}
+    h3 {font-size: 8px;}
+    p  {font-size: 6px;}
+    .hero .cta p {font-size: 7px;}
+    .button-primary, .button-secondary {
+        width: 60px;
+        height: 15px;
+    }
     main {
         margin: 10px 0;
         gap: 10px;
     }
     header {
         padding: 10px;
-    }
-    .hero {
-        margin: 0 10px;
-    }
-    .features {
-        margin: 0 10px;
-        justify-content: space-between;
-        gap: 10px;
-    }
-    .contact {
-        padding: 10px;
-    }
-    .demonstration {
-        margin: 0 10px;
-    }
-}
-
-@media (max-width: 399px) {
-    h1 {font-size: 11px;}
-    h2 {font-size: 9px;}
-    h3 {font-size: 8px;}
-    p  {font-size: 6px;}
-    .hero .cta p {font-size: 7px;}
-    header .logo img {
-        width: 60px; height: auto;
+        header .logo img {width: 60px; height: auto;}
     }
     .button-primary, .button-secondary {
         width: 60px;
         height: 15px;
     }
     .hero {
+        margin: 0 10px;
         .cta {
             gap: 5px;
             width: 145px;
@@ -401,6 +395,8 @@ main {
         }
     }
     .features {
+        margin: 0 10px;
+        gap: 10px;
         .card {
             width: 125px;
             .title {
@@ -410,4 +406,6 @@ main {
             }
         }   
     }
+    .contact {padding: 10px;}
+    .demonstration {margin: 0 10px;}
 }
