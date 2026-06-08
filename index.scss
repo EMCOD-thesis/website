@@ -125,6 +125,7 @@ main {
             margin-bottom: 10px;
             img {width: 45px; height: 45px;}
         }
+        p {text-align: justify;}
     }
 }
 
@@ -183,7 +184,7 @@ main {
     .hero .cta p {font-size: 18px;}
     header .logo img {width: 120px; height: auto;}
     .button-primary, .button-secondary {
-        width: 130px;
+        width: 150px;
         height: 30px;
     }
     .hero {
@@ -223,6 +224,11 @@ main {
     h3 {font-size: 14px;}
     p  {font-size: 12px;}
     .hero .cta p {font-size: 14px;}
+    .button-primary, .button-secondary {
+        width: 140px;
+        height: 25px;
+        border: 2px solid $primary;
+    }
     .hero {
         .cta {
             gap: 5px;
@@ -239,14 +245,12 @@ main {
     h3 {font-size: 13px;}
     p  {font-size: 12px;}
     .hero .cta p {font-size: 14px;}
+    .button-primary, .button-secondary {
+        width: 120px;
+    }
     header {
         .logo img {width: 100px; height: auto;}
         .sections {gap: 10px;}
-    }
-    .button-primary, .button-secondary {
-        width: 120px;
-        height: 25px;
-        border: 2px solid $primary;
     }
     .hero {
         .cta {width: 265px;}
@@ -301,37 +305,36 @@ main {
 }
 
 @media (max-width: 514px) {
-    h1 {font-size: 14px;}
-    h2 {font-size: 11px;}
+    h1 {font-size: 15px;}
+    h2 {font-size: 12px;}
     h3 {font-size: 10px;}
-    p  {font-size: 9px;}
-    .hero .cta p {font-size: 10px;}
+    p  {font-size: 8px;}
+    .hero .cta p {font-size: 9px;}
     .contact .container .info p {font-size: 8px;}
     header .logo img {width: 70px; height: auto;}
     .button-primary, .button-secondary {
-        width: 70px;
+        width: 80px;
         height: 17px;
     }
     .hero {
         .cta {
             gap: 5px;
-            width: 185px;
+            width: 200px;
         }
-        img {width: 185px; height: 144px;}
+        img {width: 200px; height: 139px;}
     }
     .features {
         .card {
-            width: 165px;
+            width: 180px;
             .title {
                 gap: 3px;
                 margin-bottom: 3px;
-                img {width: 14px; height: 14px;}
             }
         }   
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 444px) {
     h1 {font-size: 13px;}
     h2 {font-size: 10px;}
     h3 {font-size: 9px;}
