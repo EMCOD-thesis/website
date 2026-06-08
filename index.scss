@@ -90,7 +90,7 @@ main {
         width: 420px;
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
         text-align: justify;
         .buttons {
             display: flex;
@@ -100,7 +100,8 @@ main {
     }
     img {
         width: 420px;
-        height: auro;
+        height: 293px;
+        object-fit: cover;
     }
 }
 
@@ -187,10 +188,7 @@ main {
     }
     .hero {
         .cta {width: 370px;}
-        img {
-            width: 370px;
-            height: auto;
-        }
+        img {width: 370px; height: 264px;}
     }
     .features {
         gap: 30px;
@@ -214,10 +212,7 @@ main {
     .hero .cta p {font-size: 16px;}
     .hero {
         .cta {width: 340px;}
-        img {
-            width: 340px;
-            height: auto;
-        }
+        img {width: 340px; height: 241px;}
     }
     .features .card {width: 300px;}
 }
@@ -233,10 +228,7 @@ main {
             gap: 5px;
             width: 315px;
         }
-        img {
-            width: 315px;
-            height: auto;
-        }
+        img {width: 315px; height: 209px;}
     }
     .features .card {width: 275px;}
 }
@@ -258,10 +250,7 @@ main {
     }
     .hero {
         .cta {width: 265px;}
-        img {
-            width: 265px;
-            height: auto;
-        }
+        img {width: 265px; height: 197px;}
     }
     .features {
         .card {
@@ -293,10 +282,7 @@ main {
     .hero {
         margin: 0 15px;
         .cta {width: 235px;}
-        img {
-            width: 235px;
-            height: auto;
-        }
+        img {width: 235px; height: 166px;}
     }
     .features {
         margin: 0 15px;
@@ -331,10 +317,7 @@ main {
             gap: 5px;
             width: 185px;
         }
-        img {
-            width: 185px;
-            height: auto;
-        }
+        img {width: 185px; height: 144px;}
     }
     .features {
         .card {
@@ -360,10 +343,7 @@ main {
             gap: 5px;
             width: 170px;
         }
-        img {
-            width: 170px;
-            height: auto;
-        }
+        img {width: 170px; height: 136px;}
     }
     .features {
         .card {
@@ -406,10 +386,7 @@ main {
             gap: 5px;
             width: 145px;
         }
-        img {
-            width: 145px;
-            height: auto;
-        }
+        img {width: 145px; height: 118px;}
     }
     .features {
         margin: 0 10px;
