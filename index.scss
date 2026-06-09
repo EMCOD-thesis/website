@@ -63,7 +63,7 @@ header {
     align-items: center;
     .logo {
         line-height: 0;
-        img {width: 160px; height: auto;}
+        img {width: 180px; height: auto;}
     }
     .sections {
         display:flex;
@@ -182,7 +182,7 @@ main {
     h3 {font-size: 18px;}
     p  {font-size: 16px;}
     .hero .cta p {font-size: 18px;}
-    header .logo img {width: 120px; height: auto;}
+    header .logo img {width: 140px;}
     .button-primary, .button-secondary {
         width: 150px;
         height: 30px;
@@ -249,7 +249,7 @@ main {
         width: 120px;
     }
     header {
-        .logo img {width: 100px; height: auto;}
+        .logo img {width: 120px;}
         .sections {gap: 10px;}
     }
     .hero {
@@ -276,7 +276,7 @@ main {
     }
     header {
         padding: 15px;
-        .logo img {width: 90px; height: auto;}
+        .logo img {width: 110px;}
     }
     .button-primary, .button-secondary {
         width: 100px;
@@ -311,7 +311,7 @@ main {
     p  {font-size: 8px;}
     .hero .cta p {font-size: 9px;}
     .contact .container .info p {font-size: 8px;}
-    header .logo img {width: 70px; height: auto;}
+    header .logo img {width: 90px;}
     .button-primary, .button-secondary {
         width: 80px;
         height: 17px;
@@ -341,6 +341,7 @@ main {
     p  {font-size: 8px;}
     .hero .cta p {font-size: 9px;}
     .contact .container .info p {font-size: 7px;}
+    header .logo img {width: 70px;}
     .hero {
         .cta {
             gap: 5px;
@@ -377,7 +378,7 @@ main {
     }
     header {
         padding: 10px;
-        header .logo img {width: 60px; height: auto;}
+        .logo img {width: 60px;}
     }
     .button-primary, .button-secondary {
         width: 60px;
